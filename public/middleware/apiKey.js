@@ -11,7 +11,7 @@ const keyGen = (length) => {
 }
 
 const nameGen = () => {
-    const characters = ['Mark Hermosa', 'Alison Tsz', 'Jason Yeo', 'Alex Ng', 'Marcus Smith']
+    const characters = ['Mark Hermosa', 'Carmen Montoya', 'Alison Tsz', 'Jason Yeo', 'Alex Ng', 'Marcus Smith']
     let randomNum = (Math.floor(Math.random(1) * 5));
 
     return characters[randomNum]
